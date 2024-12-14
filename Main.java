@@ -8,12 +8,12 @@ public class Main
     public static void main(String [] args)
     {
         Player[] players = new Player[3];  // need to update array based on number of players
-        boolean printsRun = false;   // enable/disable debug print statements.
+        boolean printsRun = true;   // enable/disable debug print statements.
 
         // Add players to game
         players[0] = new Example1();
         players[1] = new PlayerExample();
-        players[2] = new MJ();
+        players[2] = new SixthKondaAnvith();
 
         //construct the game with the classes in the players array, calls on play and displays the score
         //DO NOT CHANGE
